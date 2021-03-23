@@ -1,10 +1,10 @@
 <template>
     <div class="acceso">
         <div class="usuario">
-        <a href=""> <img class="user" src="../assets/user.png"></a>
+        <router-link to="login-usuario"><img class="user" src="../assets/user.png"></router-link>
         </div>
         <div class="administrador">
-        <a href=""> <img class="admin" src="../assets/user-admin.png"></a>
+        <router-link to="login-admin"><img class="admin" src="../assets/user-admin.png"></router-link>
         <HelloAcceso/>
         </div>
     </div>
