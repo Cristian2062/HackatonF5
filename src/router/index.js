@@ -5,6 +5,7 @@ import HomeAdmin from "../views/HomeAdmin.vue";
 import HomeUsuario from "../views/HomeUsuario.vue";
 import AgendaUsuario from "../views/AgendaUsuario.vue";
 import AgendaSemana from "../views/AgendaSemana.vue";
+import Logros from "../views/Logros.vue";
 
 
 Vue.use(VueRouter);
@@ -34,6 +35,11 @@ const routes = [
     path: "/homeusuario",
     name: "HomeUsuario",
     component: HomeUsuario,
+  },
+  {
+    path: "/logros",
+    name: "Logros",
+    component: Logros,
   },
   {
     path: "/about",

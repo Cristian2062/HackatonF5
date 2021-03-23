@@ -23,6 +23,9 @@
          <li class="nav-item">
           <router-link to="/agendausuario" class="nav-link active" aria-current="page">Agenda</router-link>
         </li>
+         <li class="nav-item">
+          <router-link to="/logros" class="nav-link active" aria-current="page">Logros</router-link>
+        </li>
    
       </ul>
      
