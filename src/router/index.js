@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import HomeAdmin from "../views/HomeAdmin.vue";
 import HomeUsuario from "../views/HomeUsuario.vue";
+import AgendaUsuario from "../views/AgendaUsuario.vue";
 
 Vue.use(VueRouter);
 
@@ -16,6 +17,11 @@ const routes = [
     path: "/homeadmin",
     name: "HomeAdmin",
     component: HomeAdmin,
+  },
+  {
+    path: "/agendausuario",
+    name: "AgendaUsuario",
+    component: AgendaUsuario,
   },
   {
     path: "/homeusuario",

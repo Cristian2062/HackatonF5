@@ -15,7 +15,7 @@
         <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
           <label class="form-check-label" for="flexCheckChecked">
-           ¡HECHO! :)  
+            ¡HECHO! :)
          </label>
         </div>
          <img class="star" src="../assets/star.png" alt="star">
@@ -70,7 +70,7 @@ export default {
       margin: 10px;
       height: 50px;
       width: 400px;
-      background-color:  rgb(202, 229, 247);
+      background-color: #a4ebf3;
       
     }
     .star{

@@ -20,6 +20,9 @@
            <li class="nav-item">
           <router-link to="/homeusuario" class="nav-link active" aria-current="page">Home Usuario</router-link>
         </li>
+         <li class="nav-item">
+          <router-link to="/agendausuario" class="nav-link active" aria-current="page">Agenda</router-link>
+        </li>
    
       </ul>
      
@@ -44,7 +47,7 @@
   text-align: center;
   color: #2c3e50;
 }
-.navbar{background-color: rgb(202, 229, 247);
+.navbar{background-color: #a4ebf3;
 
 li{
   margin-right: 40px;
