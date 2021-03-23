@@ -15,12 +15,11 @@
     <input class="description" value="Descripción" />
     <br />
     <br />
-    <input class="image" type="img" value="Imagen" />
+    <input class="file" type="file" value="Imagen" />
     <br />
     <br />
-    <router-link to="/HomeAdmin">
-      <button class="submit">Entrar</button>
-    </router-link>
+    <button class="submit"><router-link to="/home-admin">Guardar</router-link></button>
+    
   </form>
 </template>
 
@@ -36,6 +35,13 @@ input {
   color: grey;
 }
 button {
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.file {
   border-radius: 5px;
 }
 </style>
