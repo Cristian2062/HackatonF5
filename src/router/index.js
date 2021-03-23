@@ -3,12 +3,22 @@ import VueRouter from "vue-router";
 import Login from "../views/LoginPage.vue";
 import HomeAdmin from "../views/HomeAdmin.vue";
 import Usuarios from "../views/Usuarios.vue";
+import Acceso from "../views/Acceso.vue";
+
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
+    component: Acceso,
+  },
+  {
+    path: "/login-admin",
+    component: Login,
+  },
+  {
+    path: "/login-usuario",
     component: Login,
   },
   {
@@ -17,17 +27,10 @@ const routes = [
     component: HomeAdmin,
   },
   {
-    path: "/homeadmin",
-    name: "HomeAdmin",
-    component: HomeAdmin,
-  },
-  {
     path: "/usuarios",
     name: "Usuarios",
     component: Usuarios,
-
   },
-      import("../views/Acceso.vue"),
 ];
 
 const router = new VueRouter({

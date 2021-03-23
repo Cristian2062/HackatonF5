@@ -1,5 +1,5 @@
 <template>
-  <form action="login">
+  <form action="login-user">
     <h1 class="login">Acceso</h1>
     <br />
     <br />
@@ -13,7 +13,7 @@
     <input class="password" value="Contraseña" />
     <br />
     <br />
-    <router-link to="/home-admin">
+    <router-link to="/home-usuario">
       <button class="submit">Entrar</button>
     </router-link>
   </form>
