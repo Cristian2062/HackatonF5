@@ -1,7 +1,7 @@
 <template>
   <div class="container">
       <h1>MIS LOGROS</h1>
-      <div class="row">
+      <div class="row logros">
 
 <div class="card" style="width: 18rem;">
   <img src="../assets/stars.png" class="card-img-top" alt="score">
@@ -146,6 +146,9 @@ export default {
     a{
       text-decoration:none;
       color: black
+    }
+    .logros{
+      margin-left:70px;
     }
  
 } 

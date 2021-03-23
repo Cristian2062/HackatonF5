@@ -8,12 +8,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <router-link to="/" class="nav-link active" aria-current="page" id="color">Home</router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/about" class="nav-link active" aria-current="page">About</router-link>
-        </li>
+      
           <li class="nav-item">
           <router-link to="/homeadmin" class="nav-link active" aria-current="page">Home Admin</router-link>
         </li>
