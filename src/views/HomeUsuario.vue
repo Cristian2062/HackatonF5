@@ -18,7 +18,7 @@
     </div>
     
     <div class="col-md-12">
-    <button class="btn btn-warning" @click="showAlert">Hecho!!:) <img class="star" src="../assets/star.png" alt="star"></button>
+    <button class="btn btn-warning" @click="showAlert">¡Hecho!:) <img class="star" src="../assets/star.png" alt="star"></button>
     </div>
   </div>
 </div>
@@ -31,7 +31,7 @@ export default {
   methods: {
     showAlert() {
       // Use sweetalert2
-      this.$swal('Enhorabuena!!! Has conseguido una estrella *');
+      this.$swal('¡¡¡Enhorabuena!!! Has conseguido una estrella *');
     },
   },
 };
