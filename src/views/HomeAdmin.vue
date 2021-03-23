@@ -5,8 +5,9 @@
       <div class=col-12>
       <img class="img" alt="tareas" src="../assets/tareas.jpg" />
       </div>
+      <h1>RUTINATOR</h1>
       <button class="btn btn-light btn-lg">Ver usuarios</button>
-      <button class="btn btn-light btn-lg">Dar de alta Usuario</button>
+      <button class="btn btn-light btn-lg">Crear tareas</button>
       <button class="btn btn-light btn-lg">Mis notas</button>
     </div>
   </div>
@@ -25,8 +26,15 @@ export default {
 </script>
 <style lang="scss">
 .container{
-
+    h1{
+      font-family: 'Acme', sans-serif;
+      font-size: 60px;
+      margin-bottom: 50px;
+      font-weight: bolder;
+      
+    }
     .img {
+  
     height: 150px;
     width: 100px;
       
