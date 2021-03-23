@@ -10,6 +10,7 @@
       </div>
       </div>
 <br>
+<div class=row>
 <div class="card" style="width: 18rem;">
   <div class="card-header">
     <h5>Lunes</h5>
@@ -86,7 +87,7 @@
     <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
   </ul>
 </div>
-
+ </div>
         
       
      
@@ -116,6 +117,7 @@ export default {
     margin-top: 50px;
     .card{
         border: solid;
+        margin:10px;
 
     }
     .form-check-input{
