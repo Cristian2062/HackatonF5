@@ -6,7 +6,7 @@
       <img class="img" alt="tareas" src="../assets/tareas.jpg" />
       </div>
       <h1>RUTINATOR</h1>
-      <button class="btn btn-light btn-lg">Ver usuarios</button>
+      <button class="btn btn-light btn-lg"><router-link to="/usuarios">Ver usuarios</router-link></button>
       <button class="btn btn-light btn-lg">Crear tareas</button>
       <button class="btn btn-light btn-lg">Mis notas</button>
     </div>
@@ -47,9 +47,10 @@ export default {
       
     }
  
+    a{
+      text-decoration: none;
+      color: black;
+    }
+
 } 
 </style>>
-
-
-
-
