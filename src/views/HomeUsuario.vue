@@ -9,7 +9,7 @@
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">Hacer la comida</h5>
-        <p class="card-text">Preparar la comida en la cocina con los ingredientes adecuados que puedes ver en tu tabla de nutrición. </p>
+        <p class="card-text">Preparar la comida en la cocina con los ingredientes adecuados, que puedes ver en tu tabla de nutrición. </p>
         <p class="card-text"><small class="text-muted">Desde 13:00h. hasta 14:30h.</small></p>
         
        
