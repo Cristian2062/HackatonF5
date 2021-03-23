@@ -16,9 +16,9 @@
     <h5>Lunes</h5>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item">8:00h | Desayunar  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star21" src="../assets/star.png" alt="star"></li>
   </ul>
 </div>
 
@@ -27,9 +27,9 @@
     <h5>Martes</h5>
   </div>
   <ul class="list-group list-group-flush">
-   <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+   <li class="list-group-item">8:00h | Desayunar  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star21" src="../assets/star.png" alt="star"></li>
   </ul>
 </div>
 
@@ -38,9 +38,9 @@
     <h5>Miercoles</h5>
   </div>
   <ul class="list-group list-group-flush">
-   <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+   <li class="list-group-item">8:00h | Desayunar  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star21" src="../assets/star.png" alt="star"></li>
   </ul>
 </div>
 
@@ -49,9 +49,9 @@
     <h5>Jueves</h5>
   </div>
   <ul class="list-group list-group-flush">
-      <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+      <li class="list-group-item">8:00h | Desayunar  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star21" src="../assets/star.png" alt="star"></li>
   </ul>
 </div>
 
@@ -60,9 +60,9 @@
     <h5>Viernes</h5>
   </div>
   <ul class="list-group list-group-flush">
-     <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+     <li class="list-group-item">8:00h | Desayunar  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star21" src="../assets/star.png" alt="star"></li>
   </ul>
 </div>
 
@@ -71,9 +71,9 @@
     <h5>Sábado</h5>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item">8:00h | Desayunar  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star21" src="../assets/star.png" alt="star"></li>
   </ul>
 </div>
 
@@ -82,9 +82,9 @@
     <h5>Domingo</h5>
   </div>
   <ul class="list-group list-group-flush">
-      <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
-    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+      <li class="list-group-item">8:00h | Desayunar  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star21" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star21" src="../assets/star.png" alt="star"></li>
   </ul>
 </div>
  </div>
@@ -149,7 +149,7 @@ export default {
       background-color: #a4ebf3;
       
     }
-    .star1{
+    .star21{
         height: 20px;
         width: 20px;
         margin-left: 235px;
