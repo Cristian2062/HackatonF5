@@ -12,18 +12,17 @@
         <p class="card-text">Preparar la comida en la cocina con los ingredientes adecuados que puedes ver en tu tabla de nutrición. </p>
         <p class="card-text"><small class="text-muted">Desde 13:00h. hasta 14:30h.</small></p>
         
-        <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-          <label class="form-check-label" for="flexCheckChecked">
-           ¡HECHO! :)  
-         </label>
-        </div>
-         <img class="star" src="../assets/star.png" alt="star">
+       
+        
       </div>
+    </div>
+    
+    <div class="col-md-12">
+    <button class="btn btn-warning" @click="showAlert">Hecho!!:) <img class="star" src="../assets/star.png" alt="star"></button>
     </div>
   </div>
 </div>
- <button @click="showAlert">Hello world</button>
+ 
   </div>
 </template>
 
@@ -32,7 +31,7 @@ export default {
   methods: {
     showAlert() {
       // Use sweetalert2
-      this.$swal('Hello Vue world!!!');
+      this.$swal('Enhorabuena!!! Has conseguido una estrella *');
     },
   },
 };
