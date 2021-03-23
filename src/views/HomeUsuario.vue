@@ -1,7 +1,4 @@
 <template>
-
-
-
   <div class="container">
       <h1>¿Qué tengo que hacer ahora?</h1>
     <div class="card mb-3" style="max-width: 540px;">
@@ -19,6 +16,7 @@
         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
           <label class="form-check-label" for="flexCheckChecked">
            ¡HECHO! :)
+        
          </label>
         </div>
 
