@@ -3,11 +3,11 @@
       <h1>MIS TAREAS PARA...</h1>
       <div class="btn-group btn-group-lg" role="group" aria-label="...">
           <button type="button" class="btn btn-outline-dark">HOY</button>
-        <button type="button" class="btn btn-outline-dark"><router-link to="/agendasemana" class="nav-link active" aria-current="page">LA SEMANA</router-link></button>
+        <button type="button" class="btn btn-outline-dark">LA SEMANA</button>
         <button type="button" class="btn btn-outline-dark">EL MES</button>
       </div>
 <br>
-<a href="#" class="link-dark">Fecha 23/03/2021</a>
+<a href="#" class="link-dark">LUNES</a>
 
 <div class="card mb-3" style="max-width: 540px;">
   <div class="row g-0">
@@ -140,10 +140,6 @@ export default {
       font-size: 20px;
       font-weight: bolder;
       margin-right: 1050px;
-    }
-    a{
-      text-decoration:none;
-      color: black
     }
  
 } 

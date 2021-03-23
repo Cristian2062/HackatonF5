@@ -4,6 +4,8 @@ import Home from "../views/Home.vue";
 import HomeAdmin from "../views/HomeAdmin.vue";
 import HomeUsuario from "../views/HomeUsuario.vue";
 import AgendaUsuario from "../views/AgendaUsuario.vue";
+import AgendaSemana from "../views/AgendaSemana.vue";
+
 
 Vue.use(VueRouter);
 
@@ -22,6 +24,11 @@ const routes = [
     path: "/agendausuario",
     name: "AgendaUsuario",
     component: AgendaUsuario,
+  },
+  {
+    path: "/agendasemana",
+    name: "AgendaSemana",
+    component: AgendaSemana,
   },
   {
     path: "/homeusuario",
