@@ -15,11 +15,10 @@
         <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
           <label class="form-check-label" for="flexCheckChecked">
-           ¡HECHO! :)
-        
+           ¡HECHO! :)  
          </label>
         </div>
-
+         <img class="star" src="../assets/star.png" alt="star">
       </div>
     </div>
   </div>
@@ -41,15 +40,25 @@ export default {
 <style lang="scss">
 .container{
     margin-top: 50px;
+    .card{
+        border: solid;
+
+    }
     .form-check-input{
         margin-left: 200px;
     }
     h1{
       font-family: 'Acme', sans-serif;
-      font-size: 60px;
+      font-size: 30px;
       margin-bottom: 50px;
       font-weight: bolder;
       
+    }
+    h5{
+    font-family: 'Acme', sans-serif;
+      font-size: 20px;
+      font-weight: bolder;
+
     }
     .img {
   
@@ -63,6 +72,11 @@ export default {
       width: 400px;
       background-color:  rgb(202, 229, 247);
       
+    }
+    .star{
+        height: 40px;
+        width: 40px;
+        margin-left: 235px;
     }
  
 } 
