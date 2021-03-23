@@ -1,10 +1,14 @@
 <template>
   <div class="container">
       <h1>MIS TAREAS PARA...</h1>
-      <div class="btn-group btn-group-lg" role="group" aria-label="...">
-          <button type="button" class="btn btn-outline-dark">HOY</button>
+      
+      <div class=" row btn-group btn-group-lg" role="group" aria-label="...">
+        <div class="col-12">
+        <button type="button" class="btn btn-outline-dark"><router-link to="/agendausuario" class="nav-link active" aria-current="page">HOY</router-link></button>
         <button type="button" class="btn btn-outline-dark"><router-link to="/agendasemana" class="nav-link active" aria-current="page">LA SEMANA</router-link></button>
-        <button type="button" class="btn btn-outline-dark">EL MES</button>
+        <button type="button" class="btn btn-outline-dark"><router-link to="/agendames" class="nav-link active" aria-current="page">EL MES</router-link></button>
+
+      </div>
       </div>
 <br>
 <a href="#" class="link-dark">Fecha 23/03/2021</a>
