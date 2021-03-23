@@ -7,7 +7,7 @@
       </div>
       <h1>RUTINATOR</h1>
       <button class="btn btn-light btn-lg"><router-link to="/usuarios">Ver usuarios</router-link></button>
-      <button class="btn btn-light btn-lg">Crear tareas</button>
+      <button class="btn btn-light btn-lg"><router-link to="/nueva-tarea">Crear tareas</router-link></button>
       <button class="btn btn-light btn-lg">Mis notas</button>
     </div>
   </div>
