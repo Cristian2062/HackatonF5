@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import HomeAdmin from "../views/HomeAdmin.vue";
+import HomeUsuario from "../views/HomeUsuario.vue";
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: "/homeadmin",
     name: "HomeAdmin",
     component: HomeAdmin,
+  },
+  {
+    path: "/homeusuario",
+    name: "HomeUsuario",
+    component: HomeUsuario,
   },
   {
     path: "/about",

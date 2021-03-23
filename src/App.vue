@@ -17,6 +17,9 @@
           <li class="nav-item">
           <router-link to="/homeadmin" class="nav-link active" aria-current="page">Home Admin</router-link>
         </li>
+           <li class="nav-item">
+          <router-link to="/homeusuario" class="nav-link active" aria-current="page">Home Usuario</router-link>
+        </li>
    
       </ul>
      
