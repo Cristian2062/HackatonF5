@@ -5,6 +5,7 @@ import HomeAdmin from "../views/HomeAdmin.vue";
 import HomeUsuario from "../views/HomeUsuario.vue";
 import AgendaUsuario from "../views/AgendaUsuario.vue";
 import AgendaSemana from "../views/AgendaSemana.vue";
+import AgendaMes from "../views/AgendaMes.vue";
 import Logros from "../views/Logros.vue";
 
 
@@ -20,6 +21,11 @@ const routes = [
     path: "/homeadmin",
     name: "HomeAdmin",
     component: HomeAdmin,
+  },
+  {
+    path: "/agendames",
+    name: "AgendaMes",
+    component: AgendaMes,
   },
   {
     path: "/agendausuario",
