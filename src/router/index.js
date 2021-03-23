@@ -27,6 +27,7 @@ const routes = [
     component: Usuarios,
 
   },
+      import("../views/Acceso.vue"),
 ];
 
 const router = new VueRouter({
