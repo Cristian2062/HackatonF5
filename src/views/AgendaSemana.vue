@@ -10,77 +10,91 @@
       </div>
       </div>
 <br>
-<a href="#" class="link-dark">LUNES</a>
-
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img class="img" src="../assets/deporte.png" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">¡Hoy toca deporte!</h5>
-        <p class="card-text">Es hora de ponerse la ropa y las zapatillas de deporte porque hoy vamos a hacer ejercicio. ¡¡A tope!! </p>
-        <p class="card-text"><small class="text-muted">Desde 9:00h. hasta 10:30h.</small></p>
-        
-        <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-          <label class="form-check-label" for="flexCheckChecked">
-           ¡HECHO! :)  
-         </label>
-        </div>
-         <img class="star" src="../assets/star.png" alt="star">
-      </div>
-    </div>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <h5>Lunes</h5>
   </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+  </ul>
 </div>
 
-    <div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img class="img" src="../assets/cocinar.png" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Hacer la comida</h5>
-        <p class="card-text">Preparar la comida en la cocina con los ingredientes adecuados que puedes ver en tu tabla de nutrición. </p>
-        <p class="card-text"><small class="text-muted">Desde 13:00h. hasta 14:30h.</small></p>
-        
-        <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-          <label class="form-check-label" for="flexCheckChecked">
-           ¡HECHO! :)  
-         </label>
-        </div>
-         <img class="star" src="../assets/star.png" alt="star">
-      </div>
-    </div>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <h5>Martes</h5>
   </div>
+  <ul class="list-group list-group-flush">
+   <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+  </ul>
 </div>
 
-
- <div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img class="img" src="../assets/dormir.jpg" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">¡A descansar!</h5>
-        <p class="card-text">Es hora de irse a dormir, para poder tener las horas de sueño diarias que necesitamos. ¡Dulces sueños! </p>
-        <p class="card-text"><small class="text-muted">Desde 23:00h. hasta 7:00h.</small></p>
-        
-        <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-          <label class="form-check-label" for="flexCheckChecked">
-           ¡HECHO! :)  
-         </label>
-        </div>
-         <img class="star" src="../assets/star.png" alt="star">
-      </div>
-    </div>
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <h5>Miercoles</h5>
   </div>
+  <ul class="list-group list-group-flush">
+   <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+  </ul>
 </div>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <h5>Jueves</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+      <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+  </ul>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <h5>Viernes</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+     <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+  </ul>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <h5>Sábado</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+  </ul>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-header">
+    <h5>Domingo</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+      <li class="list-group-item">8:00h | Desayunar  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 9:00h | Ducharse  <img class="star1" src="../assets/star.png" alt="star"></li>
+    <li class="list-group-item"> 10:00h | Coger el autobús 47  <img class="star1" src="../assets/star.png" alt="star"></li>
+  </ul>
+</div>
+
+        
+      
+     
+
+    
+
+
+
 
 
   </div>
@@ -133,9 +147,9 @@ export default {
       background-color: #a4ebf3;
       
     }
-    .star{
-        height: 40px;
-        width: 40px;
+    .star1{
+        height: 20px;
+        width: 20px;
         margin-left: 235px;
     }
     .link-dark{
