@@ -3,22 +3,22 @@
     <h1 class="title">Formulario de tareas</h1>
     <br />
     <br />
-    <input class="titulo" value="Titulo" />
+    <input class="titulo" placeholder="Titulo" />
     <br />
     <br />
-    <input class="frecuency" value="Frecuencia" />
+    <input class="frecuency" placeholder="Frecuencia" />
     <br />
     <br />
-    <input class="time" value="Hora" />
+    <input class="time" placeholder="Hora" />
     <br />
     <br />
-    <input class="description" value="Descripción" />
+    <input class="description" placeholder="Descripción" />
     <br />
     <br />
     <input class="file" type="file" value="Imagen" />
     <br />
     <br />
-    <button class="submit"><router-link to="/home-admin">Guardar</router-link></button>
+    <button class="submit"><router-link to="/homeadmin">Guardar</router-link></button>
     
   </form>
 </template>
@@ -27,7 +27,8 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
+
 h1 {
   padding-top: 5vh;
 }
@@ -44,4 +45,4 @@ a {
 .file {
   border-radius: 5px;
 }
-</style>
+</style>>

@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Login from "../views/LoginPage.vue";
+import LoginPage from "../views/LoginPage.vue";
+import LoginUser from "../views/LoginUser.vue";
 import HomeAdmin from "../views/HomeAdmin.vue";
 import HomeUsuario from "../views/HomeUsuario.vue";
 import AgendaUsuario from "../views/AgendaUsuario.vue";
@@ -21,16 +22,21 @@ const routes = [
   },
   {
     path: "/login-admin",
-    component: Login,
+    component: LoginPage,
   },
   {
     path: "/login-usuario",
-    component: Login,
+    component: LoginUser,
   },
   {
-    path: "/home-admin",
+    path: "/homeadmin",
     name: "HomeAdmin",
     component: HomeAdmin,
+  },
+  {
+    path: "/homeusuario",
+    name: "HomeUsuario",
+    component: HomeUsuario,
   },
   {
     path: "/agendames",
@@ -48,23 +54,11 @@ const routes = [
     component: AgendaSemana,
   },
   {
-    path: "/homeusuario",
-    name: "HomeUsuario",
-    component: HomeUsuario,
-  },
-  {
     path: "/logros",
     name: "Logros",
     component: Logros,
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
     path: "/usuarios",
     name: "Usuarios",
     component: Usuarios,

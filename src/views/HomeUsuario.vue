@@ -11,18 +11,13 @@
         <h5 class="card-title">Hacer la comida</h5>
         <p class="card-text">Preparar la comida en la cocina con los ingredientes adecuados, que puedes ver en tu tabla de nutrición. </p>
         <p class="card-text"><small class="text-muted">Desde 13:00h. hasta 14:30h.</small></p>
-        
-       
-        
       </div>
     </div>
-    
     <div class="col-md-12">
     <button class="btn btn-warning" @click="showAlert">¡Hecho!:) <img class="star" src="../assets/star.png" alt="star"></button>
     </div>
   </div>
 </div>
- 
   </div>
 </template>
 
@@ -77,6 +72,5 @@ export default {
         width: 40px;
         margin-left: 235px;
     }
- 
 } 
 </style>>

@@ -1,6 +1,5 @@
 <template>
   <div class="barra-busqueda">
-    <input type="search" placeholder="Buscador de Usuarios...">
     <div>
       <div class="usuarios">
         <router-link to="/cristian-martínez-alonso"><img src="../assets/OIP.png"></router-link>
@@ -16,23 +15,20 @@
   </div>
 </template>
 
-<style>
-
-.barra-busqueda{
-  padding-top: 3vh;
-}
+<style scoped>
 
 .usuarios{
-  padding-top: 2vh;
+  padding-top: 5vh;
+  padding-left: 5vw;
   display: grid;
-  grid-template-columns: 25vw 20vw 30vw 15vw;
+  grid-template-columns: 25vw 20vw 25vw 15vw;
   grid-template-rows: 40vh 40vh;
 }
 
 img{
   padding-top: 2vh;
   width: 25vw;
-  height: 25vh;
+  height: 35vh;
   display: flex;
 }
 
@@ -40,19 +36,19 @@ p{
   padding-top: 12vh;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
 
   .usuarios{
     padding-top: 2vh;
     display: grid;
-    grid-template-columns: 35vw 50vw;
+    grid-template-columns: 30vw 50vw;
     grid-template-rows: 20vh 20vh 20vh 20vh;
   }
 
   img{
     padding-top: 2vh;
-    width: 30vw;
-    height: 15vh;
+    width: 25vw;
+    height: 20vh;
     display: flex;
   }
 

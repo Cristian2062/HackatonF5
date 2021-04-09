@@ -9,8 +9,8 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       
-          <li class="nav-item">
-          <router-link to="/home-admin" class="nav-link active" aria-current="page">Home Admin</router-link>
+        <li class="nav-item">
+          <router-link to="/homeadmin" class="nav-link active" aria-current="page">Home Admin</router-link>
         </li>
            <li class="nav-item">
           <router-link to="/homeusuario" class="nav-link active" aria-current="page">Home Usuario</router-link>
@@ -21,16 +21,12 @@
          <li class="nav-item">
           <router-link to="/logros" class="nav-link active" aria-current="page">Logros</router-link>
         </li>
-   
       </ul>
-     
     </div>
   </div>
 </nav>
   <router-view />
-  
   </div>
- 
 </template>
 
 <style lang="scss">

@@ -5,15 +5,15 @@
     <br />
     <span>Introduce tu email</span>
     <br />
-    <input class="email" value="Correo" />
+    <input class="email" placeholder="Correo" />
     <br />
     <br />
     <span>Introduce tu contraseña</span>
     <br />
-    <input class="password" value="Contraseña" />
+    <input class="password" placeholder="Contraseña" />
     <br />
     <br />
-    <router-link to="/home-admin">
+    <router-link to="/homeadmin">
       <button class="submit">Entrar</button>
     </router-link>
   </form>
@@ -23,7 +23,8 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
+
 h1 {
   padding-top: 5vh;
 }
@@ -33,4 +34,4 @@ input {
 button {
   border-radius: 5px;
 }
-</style>
+</style>>
