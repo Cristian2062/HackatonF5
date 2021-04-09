@@ -43,7 +43,7 @@ export default {
       margin: 10px;
       height: 50px;
       width: 400px;
-      background-color:  rgb(202, 229, 247);
+      background-color: #a4ebf3;
       
     }
  
